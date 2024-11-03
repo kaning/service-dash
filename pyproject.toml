@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "service-dash"
+version = "0.1.0"
+description = ""
+authors = ["Kwabena Aning <kwabena.aning@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[virtualenvs]
+in-project = true
+ 
+[tool.poetry.dependencies]
+python = "^3.12"
+textual = "^0.85.1"
+textual-dev = "^1.6.1"
+boto3 = "^1.35.52"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+python-semantic-release = "^9.12.0"
+
+[tool.mypy]
+mypy_path = "service_dash"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

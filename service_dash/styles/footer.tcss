@@ -1,0 +1,4 @@
+#footer {
+    border: solid green;
+    background: $surface;
+}

@@ -1,0 +1,21 @@
+ExitConfirmScreen {
+    align: center middle;
+}
+
+#exit_confirm {
+    border: solid;
+    grid-size: 2;
+    grid-gutter: 1 2;
+    padding: 0 1;
+    grid-rows: 1fr 3;
+    width: 40;
+    height: 7;
+    border: solid green;
+    background: $surface;
+    text-align: center;
+    content-align: center middle;
+}
+
+#exit_confirm_button {
+    align: center middle;
+}
