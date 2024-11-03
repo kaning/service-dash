@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.1 (2024-11-03)
+
+### Chores
+
+* chore: Fix readme
+
+Signed-off-by: Kwabena Aning <kwabena.aning@gmail.com> ([`6a8ced5`](https://github.com/kaning/service-dash/commit/6a8ced5c9971d13420eb9c687124f2cd1c4c4fb2))
+
+
 ## v0.1.0 (2024-11-03)
 
 ### Features
